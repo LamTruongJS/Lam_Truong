@@ -1,0 +1,209 @@
+{
+    "key": "group_5c923a79e8169",
+    "title": "Modules",
+    "fields": [
+        {
+            "key": "field_5c923a83d29a1",
+            "label": "Modules",
+            "name": "c8_templates",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5f473a993ba99": {
+                    "key": "layout_5f473a993ba99",
+                    "name": "example",
+                    "label": "Example",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f473ae30d80f",
+                            "label": "ex1",
+                            "name": "ex1",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5f73ffbf1dffe": {
+                    "key": "layout_5f73ffbf1dffe",
+                    "name": "example2",
+                    "label": "Example21",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f74398ce849d",
+                            "label": "ex2",
+                            "name": "ex2",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61a98fbd761d2": {
+                    "key": "layout_61a98fbd761d2",
+                    "name": "mod_to",
+                    "label": "Mod-to",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61a9b8c9455a1": {
+                    "key": "layout_61a9b8c9455a1",
+                    "name": "bai_tap_buoi_02",
+                    "label": "Module",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61cafe9892718": {
+                    "key": "layout_61cafe9892718",
+                    "name": "mod_unlock_connection",
+                    "label": "Mod Unlock Connection",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61cafec1bd3b4": {
+                    "key": "layout_61cafec1bd3b4",
+                    "name": "mod_erp_food",
+                    "label": "Mod Erp Food",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61cafef57e6fd": {
+                    "key": "layout_61cafef57e6fd",
+                    "name": "mod_solution",
+                    "label": "Mod solution",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61caff18d2fca": {
+                    "key": "layout_61caff18d2fca",
+                    "name": "mod_master_most",
+                    "label": "Mod Master Most",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61caff2e5b476": {
+                    "key": "layout_61caff2e5b476",
+                    "name": "mod_encompass",
+                    "label": "Mod Encompass",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61caff4206669": {
+                    "key": "layout_61caff4206669",
+                    "name": "mod_slider_solution",
+                    "label": "Mod Slider Solution",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61caff4d0e9fa": {
+                    "key": "layout_61caff4d0e9fa",
+                    "name": "mod_ecosystem",
+                    "label": "Mod Ecosystem",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61caff57c1fa8": {
+                    "key": "layout_61caff57c1fa8",
+                    "name": "mod_backed",
+                    "label": "Mod Backed",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61caff67dc080": {
+                    "key": "layout_61caff67dc080",
+                    "name": "mod_lorem",
+                    "label": "Mod Lorem",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61caff74262b0": {
+                    "key": "layout_61caff74262b0",
+                    "name": "mod_chain",
+                    "label": "Mod Chain",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Module",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1640693620
+}

@@ -1,0 +1,24 @@
+#footer {
+    @apply h-[288px] w-full;
+    .footer-top {
+        @apply w-full h-full bg-no-repeat bg-cover bg-left;
+        .footer-content {
+            @apply pl-[11%] lg:pt-[11%] pt-[23%];
+            .footer-icon {
+                @apply flex justify-between;
+            }
+            p {
+                @apply text-xs;
+            }
+            ul {
+                @apply md:mt-[5%];
+            }
+            .btn-contact {
+                @apply md:mt-[2.5%];
+                a {
+                    @apply px-25 py-5 rounded-2xl border-2 border-white;
+                }
+            }
+        }
+    }
+}

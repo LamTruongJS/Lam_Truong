@@ -1,0 +1,18 @@
+@layer base {
+  .btn {
+    @apply px-11 font-bold inline-block select-none align-middle transition-all duration-300 ease-in-out rounded-sm uppercase py-7;
+  }
+
+  .btn-red {
+    @apply text-red-600 font-bold hover:text-red-400 hover:border-red-400;
+  }
+  .btn-brown {
+    @apply text-white bg-brown-100 border-brown-100 hover:bg-brown-200 hover:border-brown-200;
+  }
+  .bt {
+    @apply text-white font-bold hover:text-yellow;
+  }
+  .bt-ct {
+    @apply text-white font-bold hover:text-yellow;
+  }
+}

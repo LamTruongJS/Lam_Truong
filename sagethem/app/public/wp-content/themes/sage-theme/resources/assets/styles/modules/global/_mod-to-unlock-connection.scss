@@ -1,0 +1,25 @@
+.unlock-connection {
+  h1 {
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    from {
+      text-shadow: none;
+    }
+    to {
+      text-shadow: 5px 5px 10px violet;
+    }
+  }
+  @apply py-80 bg-no-repeat bg-cover bg-left w-full h-full;
+
+  .power-connection {
+    @apply md:pl-[7%] lg:text-left text-center;
+  }
+  .about-us {
+    @apply text-white font-bold bg-red-600 hover:bg-red-500 px-30 rounded-3xl py-3;
+  }
+  .bg-img {
+    @apply col px-0 relative;
+  }
+}

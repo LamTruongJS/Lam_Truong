@@ -1,0 +1,12 @@
+.btn-slider {
+    @apply my-20 -mt-25 absolute right-[19%] z-100 ;
+    .btn-next {
+        @apply flex w-[5em] h-[2.5em] pt-5 bg-red-500 absolute ;
+        .prev {
+            @apply absolute left-0 px-4 hover:text-white cursor-pointer;
+        }
+        .next {
+            @apply  absolute right-0 px-4 hover:text-white cursor-pointer;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+@layer base {
+  body{
+    @apply overflow-x-hidden bg-white;
+  }
+  h1,
+  .h1 {
+    @apply text-[55px] font-bold leading-[60px] text-white tracking-[-.044px];
+  }
+
+  h2,
+  .h2 {
+    @apply text-[#1f2c40] text-[36px] leading-[38px] tracking-[-0.29px] font-bold;
+  }
+
+  h3,
+  .h3 {
+    @apply text-[#1f2c40] text-[24px] font-bold leading-[28px] tracking-[-0.29px];
+  }
+
+  h4,
+  .h4 {
+    // @apply text-h4 font-syncopate;
+  }
+
+  h5,
+  .h5 {
+    // @apply text-h5 font-bold;
+  }
+
+  h6,
+  .h6 {
+    // @apply text-h5 font-medium;
+  }
+  small {
+    // @apply text-sm;
+  }
+  p, 
+  .p {
+      @apply text-[#666666] text-[18px] leading-[24px] tracking-[-0.14px];
+  }
+  button {
+    @apply outline-none #{!important};
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    @apply mb-8;
+  }
+
+  p,
+  li,
+  ol,
+  ul,
+  blockquote,
+  figure{
+    margin: 0 0 15px;
+  }
+
+  ol,
+  ul{
+    @apply block pl-20;
+  }
+
+  ol{
+    @apply list-decimal;
+  }
+
+  ul{
+    @apply list-disc;
+  }
+  p {
+    @apply mb-15;
+  }
+  
+}

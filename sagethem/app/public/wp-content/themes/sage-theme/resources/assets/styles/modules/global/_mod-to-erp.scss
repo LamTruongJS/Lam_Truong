@@ -1,0 +1,14 @@
+.erp-food {
+    @apply my-20 px-[20%];
+    .erp-food-content {
+       @apply block text-center;
+
+       h2 {
+        @apply px-[20%];
+       }
+       
+       p {
+           @apply text-gray-500;
+       }
+    }
+}
