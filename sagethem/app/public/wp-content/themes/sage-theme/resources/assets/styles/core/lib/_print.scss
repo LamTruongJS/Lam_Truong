@@ -61,7 +61,7 @@ html,
     max-width: 100%;
     text-align: center;
   }
-  .logo {
+  .header-logo {
     position: relative;
     left: 0;
     right: 0;
@@ -102,9 +102,9 @@ li,
 
 h1,
 .h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   text-align: center;
-  color: green;
+  color: red;
   padding-top: 3rem;
 }
 
@@ -119,7 +119,7 @@ h3,
 .h3 {
   font-size: 2.2rem;
   text-align: center;
-  padding: 5% 25%;
+  padding: 5%;
 }
 
 h4,
@@ -166,45 +166,13 @@ img {
   page-break-inside: avoid;
   page-break-after: avoid;
   max-width: 700px;
+  max-height: 500px;
   display: block;
   margin: auto;
 }
 
-.multi-solution-one {
-  h3:last-child {
-    display:none;
-  }
-}
-
-.multi-solution-two {
-  h3:last-child {
-    display:none;
-  }
-}
-
-.multi-solution-three {
-  padding-top: 55%;
-  h3:last-child {
-    display:none;
-  }
-}
-
-.encompass {
-  padding-top: 60%;
-}
-.ecosystem {
-  padding-top: 20%;
-}
-
 .slider-solution {
   display: none;
-}
-
-.backed-second {
-  padding-top: 25%;
-}
-.lorem-content {
-  padding-top: 10%;
 }
 
 .d-table {
@@ -290,12 +258,11 @@ h6 {
   display: none;
 }
 p {
-  padding: 0 30%;
   color: gray;
 }
 .navbar-expand-lg,
-#header-logo .d-lg-none,
-#header, #footer,
+.d-lg-none,
+#footer,#header,
 .breadcrumb,
 .form-group,
 .pagination,

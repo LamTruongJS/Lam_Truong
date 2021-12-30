@@ -1,4 +1,4 @@
-export default class ModTo {
+export default class CustomSlider {
   constructor () {
     this.$this = $('.mod-slider')
   }
@@ -18,4 +18,4 @@ export default class ModTo {
     })
   }
 }
-new ModTo().init()
+new CustomSlider().init()

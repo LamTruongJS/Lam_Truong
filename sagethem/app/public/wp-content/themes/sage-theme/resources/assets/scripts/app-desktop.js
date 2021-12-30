@@ -11,6 +11,6 @@ import "./modules/Header";
 import "./modules/Menu";
 import "./modules/Popup";
 import "./modules/SelectC8";
-import "./modules/ModTo";
+import "./modules/CustomSlider";
 import "./modules/LazyLoadImage";
 console.log("App Desktop");

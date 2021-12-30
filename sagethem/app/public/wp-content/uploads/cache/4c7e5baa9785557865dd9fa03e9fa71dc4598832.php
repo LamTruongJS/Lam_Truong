@@ -1,4 +1,4 @@
-<section class="lorem">
+<section class="container lorem">
         <div class="lorem-head">
             <p>THE LATEST</p>
         </div>

@@ -1,4 +1,4 @@
-<section class="master-most">
+<section class="container master-most">
         <div class="md:row">
             <div class="col md:w-1/2">
                 <img class='lazy' src="<?= \App\asset_path('images/data.png'); ?>" data-src="<?= \App\asset_path('images/data.png'); ?>" alt="" width="774" height="881">

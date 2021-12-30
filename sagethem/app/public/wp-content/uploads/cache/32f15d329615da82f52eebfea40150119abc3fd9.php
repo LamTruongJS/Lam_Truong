@@ -1,4 +1,4 @@
-<section class="erp-food">
+<section class="container erp-food">
         <div class="erp-food-content">
             <h2>Enterprise ERP Solutions for Beverage & Food Industry </h2>
             <p>

@@ -1,4 +1,4 @@
-<section class="ecosystem">
+<section class="container ecosystem">
         <div class="ecosystem-main">
             <div class="multi-ecosystem">
                 <h2>Our Open Ecosystem of Partners Gives You the Power to Choose</h2>

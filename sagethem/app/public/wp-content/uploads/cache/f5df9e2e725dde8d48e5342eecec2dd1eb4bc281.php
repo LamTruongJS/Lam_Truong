@@ -1,4 +1,4 @@
-<section class="encompass md:row">
+<section class="container encompass md:row">
         <div class="col lg:w-2/5">
             <div class="line"></div>
             <h2>
